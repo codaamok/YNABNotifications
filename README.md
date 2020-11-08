@@ -8,7 +8,7 @@ I import my transactions from all my accounts using [syncforynab.com](https://sy
 
 # Set up
 
-1. Create Azure Function App
+1. Create Azure Function App and give it a managed identity
 2. Create Azure Key Vault and configure to use new RBAC access policy
 3. Delegate Azure Function App `Key Vault Secrets User` role
 4. Create secrets for YNAB API, Pushover app and user keys
