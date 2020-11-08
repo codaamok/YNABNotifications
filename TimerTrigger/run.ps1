@@ -1,4 +1,4 @@
-# Input bindings are passed in via param block.
+# Input bindings are passed in via param block
 param($Timer)
 
 # Get the current universal time in the default string format.
@@ -17,7 +17,7 @@ $Uncategorised = Get-YnabTransaction -Budget "Adam 2.0" -Type uncategorized -Tok
 
 $SendPushoverSplat = @{
     UserKey     = $env:PUSHOVER_USER_KEY
-    AppToken    = $env:PUSHOVER_API_KEY
+    AppToken    = $env:PUSHOVER_APP_KEY
     Device      = "pixel3a"
     Title       = "YNAB"
 }
